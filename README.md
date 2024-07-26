@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# robust-teacher-portal
+The Robust Teacher Portal is a web application designed to manage student information efficiently. Built with Laravel (PHP) and utilizing modern front-end technologies, this portal provides a seamless experience for teachers to manage student records, including adding, updating, and deleting student details.
+>>>>>>> 91ceebf115bb17b1a5a989b9363e3673abd167ce
