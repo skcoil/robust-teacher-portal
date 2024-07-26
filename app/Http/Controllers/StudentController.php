@@ -21,15 +21,20 @@ class StudentController extends Controller
             'marks' => 'required|numeric|between:0,100',
         ]);
 
-        // Check if a record with the same name and subject exists but with different marks
+        // Check if a record with the same name and subject exists
         $existingRecord = Student::where('name', $request->name)
-                                 ->where('subject', $request->subject)
-                                 ->first();
+                                ->where('subject', $request->subject)
+                                ->first();
 
         if ($existingRecord) {
+            // Check if the marks are different for the same name and subject
             if ($existingRecord->marks != $request->marks) {
                 return back()->withErrors([
-                    'duplicate' => 'You cannot enter different marks for the same student and subject. Please use the edit button to update the existing record.'
+                    'duplicate' => 'Duplicate entry: The combination of name and subject already exists with different marks. Please use the edit button to update the existing record.'
+                ])->withInput();
+            } else {
+                return back()->withErrors([
+                    'duplicate' => 'Duplicate entry: This record already exists. Please use the edit button to update the existing record.'
                 ])->withInput();
             }
         }
@@ -38,6 +43,8 @@ class StudentController extends Controller
 
         return redirect()->route('students.index')->with('success', 'Student added successfully.');
     }
+
+
 
     public function update(Request $request, $id)
     {
