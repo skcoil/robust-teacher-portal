@@ -101,7 +101,7 @@ Follow these steps to set up the project locally:
 
 ## Usage
 
-- **Login:** Access the login page at `http://localhost:8000/login` and enter your credentials.
+- **Login:** Access the login page at `http://localhost:8000/login` and enter your credentials. If you are not registered then click Register and fill up the details.
 - **Manage Students:** After logging in, you will be redirected to the student listing screen where you can view, edit, or delete student records.
 - **Add New Students:** Use the modal to add new student records or update existing ones.
 
