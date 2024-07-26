@@ -8,7 +8,6 @@
 </p>
 
 
-```markdown
 # Robust Teacher Portal
 
 The Robust Teacher Portal is a web application designed to manage student information efficiently. Built with Laravel (PHP) and utilizing modern front-end technologies, this portal provides a seamless experience for teachers to manage student records, including adding, updating, and deleting student details.
@@ -111,13 +110,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, please contact:
 
-- **Saurabh Prasad**: [Your Email Address]
-```
+- **Saurabh Prasad**: saurabhkpofficial@gmail.com
 
 ### How to Use This README
 
 1. **Replace Placeholder Values:**
-   - Replace `your-username` with your GitHub username in the clone URL.
+   - Replace `skcoil` with your GitHub username in the clone URL.
    - Update the email address with your contact information if needed.
 
 2. **Add Specific Details:**
