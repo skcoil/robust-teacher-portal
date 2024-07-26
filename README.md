@@ -42,7 +42,7 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/robust-teacher-portal.git
+   git clone https://github.com/skcoil/robust-teacher-portal.git
    ```
 
 2. **Navigate to the Project Directory**
