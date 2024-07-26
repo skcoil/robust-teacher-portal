@@ -1,5 +1,3 @@
-Here's a revised `README.md` for your "Robust Teacher Portal" project that combines information from both versions. You can use this template to replace the existing content:
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -27,6 +25,7 @@ Before you begin, ensure you have met the following requirements:
 
 - PHP 8.0 or higher
 - Composer (PHP package manager)
+- Laravel
 - Node.js and npm (for front-end dependencies)
 - MySQL or any compatible database
 
