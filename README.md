@@ -111,23 +111,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or feedback, please contact:
 
 - **Saurabh Prasad**: saurabhkpofficial@gmail.com
-
-### How to Use This README
-
-1. **Replace Placeholder Values:**
-   - Replace `skcoil` with your GitHub username in the clone URL.
-   - Update the email address with your contact information if needed.
-
-2. **Add Specific Details:**
-   - If there are any additional setup steps or configurations specific to your project, include them.
-
-3. **Commit the Changes:**
-   After updating the `README.md` file, commit the changes:
-
-   ```bash
-   git add README.md
-   git commit -m "Updated README with project details and setup instructions"
-   git push origin main
-   ```
-
-Let me know if you need any further modifications or assistance!
