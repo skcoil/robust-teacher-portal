@@ -7,7 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-
 # Robust Teacher Portal
 
 The Robust Teacher Portal is a web application designed to manage student information efficiently. Built with Laravel (PHP) and utilizing modern front-end technologies, this portal provides a seamless experience for teachers to manage student records, including adding, updating, and deleting student details.
@@ -22,11 +21,70 @@ The Robust Teacher Portal is a web application designed to manage student inform
 
 Before you begin, ensure you have met the following requirements:
 
-- PHP 8.0 or higher
-- Composer (PHP package manager)
-- Laravel
-- Node.js and npm (for front-end dependencies)
-- MySQL or any compatible database
+### 1. Install PHP
+
+- **Windows:** Download and install PHP from [PHP for Windows](https://windows.php.net/download/).
+- **macOS:** Install PHP via Homebrew:
+
+  ```bash
+  brew install php
+  ```
+
+- **Linux:** Install PHP using your package manager. For Debian-based systems:
+
+  ```bash
+  sudo apt update
+  sudo apt install php php-cli php-mbstring php-xml php-mysql
+  ```
+
+### 2. Install Composer
+
+Composer is a dependency manager for PHP. Install it by following the instructions on the [Composer website](https://getcomposer.org/download/).
+
+For Windows:
+- Download and run the Composer-Setup.exe installer from [Composer Downloads](https://getcomposer.org/download/).
+
+For macOS and Linux:
+- Use the following commands:
+
+  ```bash
+  curl -sS https://getcomposer.org/installer | php
+  sudo mv composer.phar /usr/local/bin/composer
+  ```
+
+### 3. Install Node.js and npm
+
+Node.js is required for front-end dependencies. Download and install Node.js from [Node.js website](https://nodejs.org/). npm is included with Node.js.
+
+For Windows and macOS:
+- Download and install from the website.
+
+For Linux:
+- Use the following commands:
+
+  ```bash
+  sudo apt update
+  sudo apt install nodejs npm
+  ```
+
+### 4. Install MySQL or Any Compatible Database
+
+Download and install MySQL from [MySQL Downloads](https://dev.mysql.com/downloads/installer/).
+
+For macOS:
+- You can use Homebrew:
+
+  ```bash
+  brew install mysql
+  ```
+
+For Linux:
+- Use the following commands:
+
+  ```bash
+  sudo apt update
+  sudo apt install mysql-server
+  ```
 
 ## Installation
 
